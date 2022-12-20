@@ -184,3 +184,13 @@ ul {
   color: var(--main-text-color);
   border: 2px solid var(--main-text-color);
 }
+.footer-wrapper {
+    background-color:var(--background1);
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    color: var(--main-text-color);
+}
