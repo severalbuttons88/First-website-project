@@ -1,10 +1,46 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 :root {
-  --background1: #1f2937;
+  --background1: #1f2937; /*Hero and footer*/
   --main-text-color: #f9faf8; /*Hero main text and Header logo text*/
   --secondary-text-color: #e5e7eb; /*Quote section and hero secondary colors*/
   --button-color: #3882f6;
-  --information-text-color: #1f2937;
+  --information-text-color: #1f2937; /*quote text and info text*/
 }
 html {
   font-family: "roboto, sans-serif";
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.head-link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.adjust {
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  background-color: var(--background1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav-links {
+  display: flex;
+  gap: 32px;
+  margin-right: 5vw;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
