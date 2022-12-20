@@ -1,0 +1,10 @@
+:root {
+  --background1: #1f2937;
+  --main-text-color: #f9faf8; /*Hero main text and Header logo text*/
+  --secondary-text-color: #e5e7eb; /*Quote section and hero secondary colors*/
+  --button-color: #3882f6;
+  --information-text-color: #1f2937;
+}
+html {
+  font-family: "roboto, sans-serif";
+}
