@@ -9,6 +9,7 @@
   --secondary-text-color: #e5e7eb; /*Quote section and hero secondary colors*/
   --button-color: #3882f6;
   --information-text-color: #1f2937; /*quote text and info text*/
+  --quote-color: #e5e7eb;
 }
 html {
   font-family: "roboto, sans-serif";
@@ -127,4 +128,24 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 16px;
+}
+.quote-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--quote-color);
+  padding: 150px;
+}
+#quote-text {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  color: var(--information-text-color);
+  max-width: 900px;
+  margin-left: 300px;
+}
+.quote-author {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 150px;
 }
