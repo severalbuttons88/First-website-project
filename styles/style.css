@@ -18,6 +18,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
 }
 .head-link {
   color: var(--secondary-text-color);
@@ -185,12 +187,12 @@ ul {
   border: 2px solid var(--main-text-color);
 }
 .footer-wrapper {
-    background-color:var(--background1);
-    padding:20px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--background1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .copyright {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
 }
